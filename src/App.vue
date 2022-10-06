@@ -1,33 +1,25 @@
 <template>
   <AppMenu/>
-  <div class="sidebar-left">
-
-  </div>
-  <div class="add-content">
-
-  </div>
+  <AppLogin/>
+  <AppFooter/>
 </template>
 
 <script>
 import AppMenu from "@/components/AppMenu.vue";
+import AppLogin from "@/components/AppLogin.vue"
+import AppFooter from "@/components/AppFooter.vue";
 
 export default {
   name: 'App',
   components:{
-    AppMenu
-  },
-  methods:{
-
+    AppMenu,
+    AppLogin,
+    AppFooter
   }
 }
 
 </script>
 
 <style>
-#app{
-  display: flex;
-  flex-wrap: wrap;
-}
-
 
 </style>
